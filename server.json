@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.rowhousesoftware/cutline",
+  "title": "Cutline",
+  "description": "Turn card text into print and play sheets at true card size, as a PDF.",
+  "websiteUrl": "https://cards.rowhousesoftware.com",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rowhousesoftware/cutline",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cards.rowhousesoftware.com/mcp"
+    }
+  ]
+}
